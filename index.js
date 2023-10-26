@@ -1,3 +1,6 @@
+ require("dotenv").config()
+//dontenv.config()
+
 const http=require("http")
 
 
@@ -10,6 +13,8 @@ console.log("Hola mundo")
 }
 //configurar nuestro servidor
 const server = http.createServer(requestController)
-
-server.listen(4000)
+const PORT =process.env.PORT
+server.listen(PORT, function(){
+    console.log("aplicacion corriendo en puerto "+PORT)
+})
 
