@@ -1,16 +1,13 @@
 const http=require("http")
-const exportsFromAnother = require("./another")//accediendo
-console.log({exportsFromAnother})
+
+
 function requestController(){
 
-    const companies =[
-        {name: "carlos", isOnline: true},
-        {name: "Spa Relax", isOnline: false}
-    ]
+    
    
 
 //logica de la función
-console.log("recibimos una nueva request")
+console.log("Hola mundo||||||||||")
 
 }
 //configurar nuestro servidor

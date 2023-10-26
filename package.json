@@ -5,6 +5,9 @@
   "author": "C-arl-os <112126461+C-arl-os@users.noreply.github.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "dev":"nodemon index.js"
+  },
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
